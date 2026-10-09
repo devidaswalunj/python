@@ -131,8 +131,8 @@ print(s[-12:-2])
 ####print("address of x=", id(x))
 ####
 #####expontial form
-####x=1.7e3
-####print(x)
+x=1.7e3
+print("x",x)
 #####int
 ####y=555
 ####print("y=",y)
