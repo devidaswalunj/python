@@ -1,4 +1,4 @@
-#A statemant or series of step that are executing repeatetaly
+"""#A statemant or series of step that are executing repeatetaly
 # what is range function
 #deffernce between for and while loop
 #range(start, stop, step)--> this is range optional
@@ -107,10 +107,18 @@ for i in range(10):
         continue
     print(i)
 
+"""
 
+l1=[10,20,30,10,40,50,50,40,55,66,20,30,77,88,99]
+l2=[]
+l3=[]
+for i in l1:
+    if i not in l2:
+        l2.append(i)
+    else:
+        l3.append(i)
 
-
-
+print("dublicate number are:",l3)
 
 
 
