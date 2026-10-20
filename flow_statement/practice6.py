@@ -23,11 +23,34 @@ while i==s:
         s=s+1
 
 
-'''
+
 #4accept a number and print reverse of that number
 num=int(input("enter a number: "))
-str1=str(num)
-print(type(str1))
-print(str1)
-a=str1[::-1]
+while num>0:
+    str1=str(num)
+    #print(type(str1))
+    #print(str1)
+    a=str1[::-1]
+    num=0
 print(int(a))
+'''
+num=int(input("enter a number: "))
+rev=0
+while num>=0:
+    
+    d=num%10
+    rev=rev*10+d
+    num=num//10
+
+print(rev)
+
+
+
+
+
+
+
+
+
+
+
