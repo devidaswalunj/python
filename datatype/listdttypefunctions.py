@@ -168,3 +168,73 @@
 # l1[2]=100
 # print(l1)
 # print(l2)
+
+
+
+
+# #operator
+# #mathematicl + ,*
+# l1=[10,20,30,40,60]
+# l2=[10,20,30,70,50]
+# print(l1+l1)
+# print(l1*3)
+
+# #relational op <,> ,<=,=>,!=
+# l1=["python", "da", "ds"]
+# l2=["Python", "java"]
+# print(l1<l2)
+
+
+# #special operator
+# #membership op in, not in  check item present or not
+# l1=["python", "da", "ds"] 
+# l2=["Python", "java"]
+# print("python" in l1)
+# print("cloud" in l2)
+
+# #identity op  is, is not ===check address
+# l1=["python", "da", "ds"]
+# l2=["Python", "java"]
+# print(l1 is not l2)
+
+
+
+#nasted list
+# l1=["python", "da", "ds",["Python", "java"]]
+# print(l1[3][1])
+
+
+#####
+print("++++++++++++++++++++++++++++++++++++")
+#list comprehension
+#print 1 to 10 number using list comprehension
+# l1=[i for i in range(1,11)]
+# print(l1)
+
+# #print even number 1 to 10 number using list comprehension
+# l1=[i for i in range(1,11) if i%2==0]
+# print(l1)
+
+# #print squre of list items using list comprehension
+# l1=[1,2,3,4,5,6]
+# l2=[i**2 for i in l1 ]
+# print(l2)
+
+
+#Q1) create new list with element that are present in num1 but not in num2 list
+# num1=[10,20,30,40]
+# num2=[30,40,50,60]
+# num3=[i for i in num1 if i not in num2]
+# print(num3)
+
+#s="The quick brown  fox jumps over a lazy dog"
+s="python is easy"
+l1=s.split()
+l2=[]
+for i in l1:
+    le=len(i)
+    l2.append([i,le])
+print(l2)
+#another way using list comprehension
+l2=[ [i,len(i)] for i in l1]
+print(l2)

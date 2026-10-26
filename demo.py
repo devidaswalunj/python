@@ -1,5 +1,9 @@
-for i in range(4):
-    for j in range(4):
-        if i==0 or j==0 or i==3 or j==3 :
-            print("*",end=" ")
-    print()
+s=input("Enter Some String:") 
+l=s.split() 
+l1=[] 
+i=0 
+while i<len(l): 
+	l1.append(l[i][::-1]) 
+	i=i+1 
+	output=' '.join(l1) 
+print(output) 
