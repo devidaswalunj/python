@@ -54,8 +54,11 @@
 
 
 # #get(k),get(k,default value)
-# d={1:"python", 2:"java", 'a': 2000}
-# #x=d.get(1)
+d={1:"python", 2:"java", 'a': 2000}
+
+x=d.get(1)
+print(x)
+
 # #x=d.get(4)# it not give a error it give a none
 # x=d.get(5,"guest") #is present give value not present give guest
 # print(x)
@@ -115,15 +118,15 @@
 # print(d)
 
 
-#update()
-d={1:"python", 2:"java", 'a': 2000}
-d1={3:"da"}
-d.update(d1)# it add the key value or replace it
-print(d)
+# #update()
+# d={1:"python", 2:"java", 'a': 2000}
+# d1={3:"da"}
+# d.update(d1)# it add the key value or replace it
+# print(d)
 
-#dictionary comprehension
-d={x:x*x for x in range(1,6)}
-print(d)
+# #dictionary comprehension
+# d={x:x*x for x in range(1,6)}
+# print(d)
 
 
 
