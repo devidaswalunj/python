@@ -27,7 +27,7 @@ d = {
            "A) function calling itself",
            "B) function calling another function",
            "C) function calling a variable", "D) none"],
-
+ 
     'Q8': ["Q 8) What is the output of type([1, 2, 3])?",
            "A) <class 'list'>", "B) <class 'tuple'>",
            "C) <class 'set'>", "D) <class 'dict'>"],
