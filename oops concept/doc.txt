@@ -1,2 +1,22 @@
 instance
 self  :-pointing to the cureent instance
+
+
+class is collection of data and methods
+class is blue print
+
+object is instance of claas
+object is real entity
+ 
+
+ constructor - is special type of method use to initilize the instance variable
+
+
+
+ type of variable
+ instance variable:- object level variable
+                            means
+ static variable:- class level variable 
+                                access using class name and object refernce name 
+                        why use 
+ local  variable

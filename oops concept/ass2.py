@@ -22,7 +22,9 @@ class calculator():
 number1=eval(input("enter number 1: "))
 number2=eval(input("enter number 2: "))
 c1=calculator(number1,number2)
-choice=eval(input(''' 
+
+while True:
+    choice=eval(input(''' 
 
 1.addition
 2.substraction
@@ -30,16 +32,17 @@ choice=eval(input('''
 4.division           
 enter your choice:''' ))
 
-if choice==1:
-    c1.add()
-elif choice==2:
-    c1.sub()
-elif choice==3:
-    c1.mul()
-elif choice==4:
-    c1.div()
-else:
-    print("wrong choice")
-
-
-
+    if choice==1:
+        c1.add()
+        break
+    elif choice==2:
+        c1.sub()
+        break
+    elif choice==3:
+        c1.mul()
+        break
+    elif choice==4:
+        c1.div() 
+        break
+    else:
+        print("wrong choice! Please choose again.")
