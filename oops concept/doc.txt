@@ -29,3 +29,7 @@ static method
 
 
 inner class#########
+
+nested method/function
+
+garbege collector

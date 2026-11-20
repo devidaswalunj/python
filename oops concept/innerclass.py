@@ -8,7 +8,7 @@ class outer():
             print("inner method")
     def m2(self):
         print("outer method")
-
+    
 
 outer().m2()
 outer().inner().m1()
