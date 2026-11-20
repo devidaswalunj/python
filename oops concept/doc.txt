@@ -17,6 +17,15 @@ object is real entity
  instance variable:- object level variable
                             means
  static variable:- class level variable 
-                                access using class name and object refernce name 
+                                access using class name and (object refernce name )
                         why use 
- local  variable
+ local  variable:-
+
+type of methods
+instance method
+class method
+static method
+
+
+
+inner class#########
