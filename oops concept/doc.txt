@@ -33,3 +33,43 @@ inner class#########
 nested method/function
 
 garbege collector
+
+
+what is has relationship(composition) and is -a relationship(inheritance)
+composition= accessing the properties to create object of another class
+inheritance 
+a class accessing properties of another class
+
+data & method
+Class A->parent class , base class
+Class B ->child class ,
+
+advantage =code reusability
+
+super()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+car=model color
+car data
+employee
+eid name sal car
+show edetail=eid name sal car model, color
