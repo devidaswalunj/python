@@ -48,9 +48,13 @@ advantage =code reusability
 
 super()
 
+call parent cons in child  cons
 
 
+hybrid inheritance
 
+mro==DLR
+method resolution order=depth-left-right
 
 
 
