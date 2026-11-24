@@ -57,7 +57,7 @@ for i in range(len(d)):
         print(d[x][j])
 
     answer = input("Enter your answer (A/B/C/D): ").upper()
-    if answer=="a" or answer=="b" or answer=="c" or answer=="d":
+    if answer=="A" or answer=="B" or answer=="C" or answer=="D":
         pass
     else:
         print("Invalid input. Please enter A, B, C, or D.")

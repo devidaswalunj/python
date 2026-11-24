@@ -58,12 +58,16 @@ method resolution order=depth-left-right
 
 
 
+polimorphism
+
+duck  typing
+same name but differnt task depend on passing object
 
 
+check the method is available or not use  hasattri(obj,  methodname)
 
 
-
-
+operator overloading    
 
 
 
@@ -77,3 +81,7 @@ car data
 employee
 eid name sal car
 show edetail=eid name sal car model, color
+
+
+
+inheritance method same in parent class and child class how to call it

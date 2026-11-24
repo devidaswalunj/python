@@ -18,7 +18,7 @@
 
 # l3=eval(input("Enter the item of the list: "))
 # print(l3)
-
+# print(type(l3))
 # #split()
 # s="python is eazy"
 # l4=s.split()
@@ -58,7 +58,8 @@
 #built-in function
 #count()
 # l1=[10,20,30,40,50,10,10,60]
-# print(l1.count(10))
+# l2=l1.count(10)
+# print(l2)
 
 #index()
 # l1=[10,20,30,40,50,60]
@@ -70,24 +71,24 @@
 # print(l1)
 
 #insert()
-# l6=[10,20,30,40,50,60]
-# l6.insert(2,500)
-# print(l6)
+l6=[10,20,30,40,50,60]
+l6.insert(2,500)
+print(l6)
 
 #extend()
-# l1=[10,20,30,40,50,60]
-# l2=[700,800]
-# l1.extend(l2)
-# print(l1)
+l1=[10,20,30,40,50,60]
+l2=[700,800]
+l1.extend(l2)
+print(l1)
 
-# l3="java"
-# l1.extend(l3)
-# print(l1)
+l3="java"
+l1.extend(l3)
+print(l1)
 
-# l1=[10,20,30,40,50,60]
-# l2=[500,600]
-# l1.append(l2)   #it add at it is in the list
-# print(l1)
+l1=[10,20,30,40,50,60]
+l2=[500,600]
+l1.append(l2)   #it add at it is in the list
+print(l1)
 
 
 #remove()
@@ -205,7 +206,7 @@
 
 
 #####
-print("++++++++++++++++++++++++++++++++++++")
+#print("++++++++++++++++++++++++++++++++++++")
 #list comprehension
 #print 1 to 10 number using list comprehension
 # l1=[i for i in range(1,11)]
@@ -228,13 +229,13 @@ print("++++++++++++++++++++++++++++++++++++")
 # print(num3)
 
 #s="The quick brown  fox jumps over a lazy dog"
-s="python is easy"
-l1=s.split()
-l2=[]
-for i in l1:
-    le=len(i)
-    l2.append([i,le])
-print(l2)
-#another way using list comprehension
-l2=[ [i,len(i)] for i in l1]
-print(l2)
+# s="python is easy"
+# l1=s.split()
+# l2=[]
+# for i in l1:
+#     le=len(i)
+#     l2.append([i,le])
+# print(l2)
+# #another way using list comprehension
+# l2=[ [i,len(i)] for i in l1]
+# print(l2)
