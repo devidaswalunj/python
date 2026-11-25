@@ -59,7 +59,7 @@ method resolution order=depth-left-right
 
 
 polimorphism
-
+same name but differnt operation / behaviou
 duck  typing
 same name but differnt task depend on passing object
 
@@ -69,8 +69,10 @@ check the method is available or not use  hasattri(obj,  methodname)
 
 operator overloading    
 
-
-
+method overriding
+imp for interview
+abstract method 
+abstract class
 
 
 
