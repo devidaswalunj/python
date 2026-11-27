@@ -76,6 +76,10 @@ abstract class
 
 
 
+exception := some unwanted event occur in the run time is call exception
+
+
+
 
 
 car=model color
